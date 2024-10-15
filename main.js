@@ -10,10 +10,14 @@ for (let i = 0; i < 100; i++) {
     let num = i + 1;
     // console.log(num);
 
-//Per i multipli sia di 3 che di 5 stampi "FizzBuzz"
-if (num % 3 === 0 && num % 5 === 0) {
+
+if (num % 3 === 0 && num % 5 === 0) { 
     console.log("FizzBuzz");
-}//Per i multipli di 3 stampi “Fizz” al posto del numero 
+    //Per i multipli sia di 3 che di 5 stampi "FizzBuzz"
+}else if (num % 3 === 0) { 
+    console.log("Fizz");
+     //Per i multipli di 3 stampi “Fizz” al posto del numero
+} 
 
 
 //Per i multipli di 5 stampi "Buzz" al posto del numero.
