@@ -19,6 +19,8 @@ for (let i = 0; i < 100; i++) {
     } else if (num % 5 === 0) {
         console.log("Buzz");
         //Per i multipli di 5 stampi "Buzz" al posto del numero.
+    } else {
+        console.log(num);
     }
 
 }
