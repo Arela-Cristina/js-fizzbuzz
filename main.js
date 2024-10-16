@@ -13,6 +13,7 @@ for (let i = 0; i < 100; i++) {
     if (num % 3 === 0 && num % 5 === 0) {
         console.log("FizzBuzz");
         //Per i multipli sia di 3 che di 5 stampi "FizzBuzz"
+        //Questa condizione deve essere prima di tutte perche se la mettiamo alla fine non si complira mai nella vita.
     } else if (num % 3 === 0) {
         console.log("Fizz");
         //Per i multipli di 3 stampi “Fizz” al posto del numero
@@ -24,3 +25,25 @@ for (let i = 0; i < 100; i++) {
     }
 
 }
+
+//ALTRI CONSIGLI:
+//E importante controllare che i valori da stampare siano solo stringhe oppure solo numeri. Dipendendo il caso dello scopo del essercizio.
+
+//come far diventare un numero in una stringa, concateniamo una stringa. Partendo dal essempio dove num sarebbe un numero (valor numerico):
+// let num = '' + num.
+
+//Console.log(), evitare di ripetere la stessa operazione, cercare di fare solo un output alla fine. al posto di console.log() possiamo utilizzare "message = ", e alla fine  fare il console.log(message).
+
+// if (num % 3 === 0 && num % 5 === 0) {
+//     messagio = "FizzBuzz";
+
+// } else if (num % 3 === 0) {
+//     messagio = "Fizz";
+
+// } else if (num % 5 === 0) {
+//     messagio = "Buzz";
+
+// } else {
+//     messagio = '' + num;
+// }
+// console.log(messagio)
